@@ -22,8 +22,8 @@ Create connection DB
   
    First set, Servername, Username, Password, DBname
    
-   Example
-   <?php
+ - Example
+    <?php
        $servername = "localhost";
        $username = "root";
        $password = "";
@@ -31,10 +31,11 @@ Create connection DB
        // Create connection
        $conn = new mysqli($servername, $username, $password, $dbname);
     ?>
-    Note - if Your Using Localhost above the example use. 
+     Note - if Your Using Localhost above the example use. 
  Insert Opeartion
-   
-   // Escape user inputs for security
+
+ - // Escape user inputs for security
+ 
    $first_name = mysqli_real_escape_string($link, $_REQUEST['firstname']);
    $last_name = mysqli_real_escape_string($link, $_REQUEST['lastname']);
    $email = mysqli_real_escape_string($link, $_REQUEST['email']);
