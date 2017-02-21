@@ -1,11 +1,11 @@
 # PHP simple CURD
 
-1.Create DB and Table
-2.Create a Form
-3.Create connect.php File Create as Common File
-4.Insert Option
-5.Update
-6.Delete
+- Create DB and Table
+- Create a Form
+- Create connect.php File Create as Common File
+- Insert Option
+- Update
+- Delete
 
 Create DB and Table
 
@@ -13,14 +13,12 @@ Create DB and Table
   - create table, Number fields depends your requirement
   
 Create a Form
-
-  Whenever form creates Must enter 'action', 'name', 'method'
-  <form action="" name="" method="">
-  </form>
+ - Whenever form creates Must enter 'action', 'name', 'method'
+   <form action="" name="" method="">
+   </form>
  
- Create connection DB
- 
-   Object Oriented DB Connection
+Create connection DB
+ - Object Oriented DB Connection
   
    First set, Servername, Username, Password, DBname
    
